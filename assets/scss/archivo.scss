@@ -1,0 +1,163 @@
+$tTitulo: 42px;
+$tSubt: 11.9px;
+$fontFam: 'barlow',
+sans-serif;
+$fontWei: 400;
+$bck: #000000;
+$liv: lighter;
+$bcg: #e0466b;
+$nomp: 0px;
+$he1: 100px;
+* {
+    font-family: $fontFam;
+    font-weight: $fontWei;
+}
+
+h1 {
+    font-size: $tTitulo;
+}
+
+.blig {
+    font-weight: $liv;
+}
+
+.subt {
+    font-size: $tSubt;
+}
+
+.h1 {
+    margin: $nomp;
+    padding: $nomp;
+}
+
+.tope {
+    display: flex;
+    width: 90%;
+    margin-left: 5%;
+    padding: 5px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    &__subt {
+        margin: 0px;
+        padding: 0px;
+    }
+}
+
+.card {
+    padding: 0 5em;
+    &__img {
+        display: block;
+        height: $he1;
+        width: 100%;
+        background: $bcg;
+    }
+    &__content {
+        padding: 1.5em;
+        &__desc {
+            width: 100%;
+            display: block;
+        }
+        &__list {
+            list-style-type: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+            &__item {
+                margin: 0px;
+            }
+        }
+    }
+}
+
+.caja {
+    padding: 0 5em;
+    &__content {
+        padding: 1.5em;
+        &__desc {
+            width: 100%;
+            display: block;
+        }
+        &__list {
+            list-style-type: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+            &__item {
+                margin: 0px;
+            }
+        }
+    }
+}
+
+.redes {
+    align-self: right;
+}
+
+.flexContainer {
+    display: flex;
+    width: 90%;
+    margin-left: 5%;
+    padding: 5px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    border: solid 1px;
+    border-color: $bck;
+}
+
+ul li {
+    list-style: none;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.portada {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #d1d3d4
+}
+
+a {
+    text-decoration: none;
+    color: $bck;
+}
+
+.gInd {
+    margin-top: 50px;
+    /* display: grid;
+	grid-template-columns: 500px, 200px;
+	grid-template-rows: 1fr, 1fr;
+	grid-gap: 50px;
+	grid-template-areas: 
+	"text1 img1"
+	"text2 img2" 
+}
+
+.text1 {
+	grid-area: text1;
+}
+
+.text2 {
+	grid-area: text2;
+}
+
+.img1 {
+	grid-area: img1;
+}
+
+.img2 {
+	grid-area: img2;
+*/
+}
+
+.carousel-caption {
+    color: $bck;
+}
+
+footer {
+    height: $he1;
+}
